@@ -1,0 +1,15 @@
+[run]
+branch = True
+source =
+    template/
+    tests/
+
+[paths]
+source =
+   src/template
+   .tox/*/lib/python*/site-packages/template
+
+[report]
+exclude_lines =
+    @abc.abstractmethod
+    @abc.abstractproperty
